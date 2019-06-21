@@ -1,10 +1,12 @@
-package com.linrh.easyhttp;
+package com.linrh;
 
 import android.app.Activity;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.ImageView;
+
+import com.linrh.easyhttp.EasyHttp;
 
 import java.io.File;
 import java.io.IOException;

@@ -1,5 +1,9 @@
 apply plugin: 'java-library'
 
+apply plugin: 'com.github.dcendents.android-maven'
+
+group = 'com.github.ruihanL'
+
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.google.code.gson:gson:2.8.5'
@@ -9,3 +13,12 @@ dependencies {
 
 sourceCompatibility = "7"
 targetCompatibility = "7"
+
+
+task classesJar(type: Jar) {
+    from "$buildDir/libs"
+}
+
+artifacts {
+    archives classesJar
+}

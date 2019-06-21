@@ -1,9 +1,13 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.github.dcendents.android-maven'
+
+group = 'com.github.ruihanL'
+
 
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.linrh.easyhttp"
+        applicationId "com.linrh"
         minSdkVersion 18
         targetSdkVersion 28
         versionCode 1
@@ -31,3 +35,5 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     implementation project(':easyhttp')
 }
+
+

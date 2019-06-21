@@ -27,12 +27,7 @@ Gradle
 ```java
 
 	dependencies {
-	        implementation 'com.github.ruihanL:EasyHttp:1.0.2'
-			
-			//implementation 'com.google.code.gson:gson:2.8.5'
-			//implementation 'com.squareup.okhttp3:okhttp:3.14.2'
-			//implementation 'com.squareup.okio:okio:2.2.2'
-			
+	        implementation 'com.github.ruihanL:EasyHttp:1.0.3'
 	}
 
 

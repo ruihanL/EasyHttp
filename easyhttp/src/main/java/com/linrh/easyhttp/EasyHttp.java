@@ -24,11 +24,7 @@ import okio.BufferedSink;
 import okio.Okio;
 import okio.Source;
 
-/**
- * 作者：created by @author{ John } on 2018/12/28 0028上午 9:31
- * 描述：网络请求类。封装了OKHTTP3。
- * 修改备注：
- */
+
 public class EasyHttp {
 
 
